@@ -6,6 +6,7 @@ import strategy.ducks.MallardDuck
 import strategy.ducks.RubberDuck
 
 class MiniDuckSimulator {
+
     companion object {
         @JvmStatic
         fun main(args: Array<String>) {
