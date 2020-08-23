@@ -1,5 +1,6 @@
-package observer
+package observer.display_elements
 
+import observer.subject.Subject
 import kotlin.properties.Delegates
 
 class CurrentConditionsDisplay(private var weatherData: Subject) : Observer, DisplayElement {

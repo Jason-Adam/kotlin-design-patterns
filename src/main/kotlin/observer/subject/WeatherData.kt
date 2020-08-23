@@ -1,5 +1,6 @@
-package observer
+package observer.subject
 
+import observer.display_elements.Observer
 import kotlin.properties.Delegates
 
 class WeatherData : Subject {
@@ -25,7 +26,7 @@ class WeatherData : Subject {
         }
     }
 
-    fun measurementsChanged() {
+    private fun measurementsChanged() {
         notifyObservers()
     }
 
