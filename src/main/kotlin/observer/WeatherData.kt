@@ -11,6 +11,7 @@ class WeatherData : Subject {
     override fun registerObserver(observer: Observer) {
         observers.add(observer)
     }
+    
 
     override fun removeObserver(observer: Observer) {
         val idx: Int = observers.indexOf(observer)
